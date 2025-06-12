@@ -1,28 +1,25 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/layout/Header';
-import Footer from './components/layout/Footer';
-import HomePage from './pages/HomePage';
-import PackagesPage from './pages/PackagesPage';
-import PackageDetailPage from './pages/PackageDetailPage';
-import ContactPage from './pages/ContactPage';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Destinations from './components/Destinations';
+import Services from './components/Services';
+import About from './components/About';
+import Testimonials from './components/Testimonials';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
-      <div className="flex flex-col min-h-screen">
-        <Header />
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/packages" element={<PackagesPage />} />
-            <Route path="/packages/:id" element={<PackageDetailPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <div className="min-h-screen">
+      <Header />
+      <Hero />
+      <Services />
+      <Destinations />
+      <About />
+      <Testimonials />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 

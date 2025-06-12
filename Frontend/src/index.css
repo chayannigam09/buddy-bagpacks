@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+/* Chrome, Edge, Safari */
+body::-webkit-scrollbar {
+  width: 6px;
+}
+body::-webkit-scrollbar-track {
+  background: #f1f5f9; /* Light gray */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #60a5fa; /* Tailwind blue-400 */
+  border-radius: 6px;
+}
+

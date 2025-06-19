@@ -55,7 +55,7 @@ const Contact = () => {
                   <Mail className="h-6 w-6 mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-semibold">Email</p>
-                    <p className="opacity-90">info@buddybagpackers.com</p>
+                    <p className="opacity-90">info@tripwithme.in</p>
                   </div>
                 </div>
                 

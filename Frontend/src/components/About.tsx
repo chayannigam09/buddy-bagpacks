@@ -12,7 +12,7 @@ const About = () => {
               Revolutionizing Travel with Technology
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Founded in 2020, BuddyBagpackers emerged from a simple idea: use technology to make travel more accessible, 
+              Founded in 2020, TripWithMe emerged from a simple idea: use technology to make travel more accessible, 
               safe, and connected. We believe that every journey should be an opportunity to grow, discover, and create 
               lasting memories with fellow adventurers.
             </p>

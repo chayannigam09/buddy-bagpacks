@@ -8,7 +8,7 @@ const testimonials = [
     location: 'New York, USA',
     image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400',
     rating: 5,
-    text: 'BuddyBagpackers completely transformed my travel experience. The app made everything so easy, and I met amazing people through their group matching feature. My solo trip to Southeast Asia became an incredible adventure with new friends!'
+    text: 'TripWithMe completely transformed my travel experience. The app made everything so easy, and I met amazing people through their group matching feature. My solo trip to Southeast Asia became an incredible adventure with new friends!'
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const testimonials = [
     location: 'Mumbai, India',
     image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400',
     rating: 5,
-    text: 'Safety was my biggest concern as a solo female traveler, but BuddyBagpackers gave me peace of mind. The 24/7 support and comprehensive insurance made me feel secure throughout my European backpacking adventure.'
+    text: 'Safety was my biggest concern as a solo female traveler, but TripWithMe gave me peace of mind. The 24/7 support and comprehensive insurance made me feel secure throughout my European backpacking adventure.'
   },
   {
     id: 4,
@@ -32,7 +32,7 @@ const testimonials = [
     location: 'London, UK',
     image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400',
     rating: 5,
-    text: 'I have used many travel platforms, but none come close to BuddyBagpackers. The seamless booking process, flexible cancellation policy, and personalized itineraries make it the perfect choice for modern travelers.'
+    text: 'I have used many travel platforms, but none come close to TripWithMe. The seamless booking process, flexible cancellation policy, and personalized itineraries make it the perfect choice for modern travelers.'
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const testimonials = [
     location: 'Seoul, South Korea',
     image: 'https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=400',
     rating: 5,
-    text: 'BuddyBagpackers turned my dream of traveling the world into reality. Their payment plans and budget tracking features helped me manage my finances, and the community aspect made every journey memorable.'
+    text: 'TripWithMe turned my dream of traveling the world into reality. Their payment plans and budget tracking features helped me manage my finances, and the community aspect made every journey memorable.'
   }
 ];
 
@@ -61,7 +61,7 @@ const Testimonials = () => {
             What Our Travelers Say
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Join thousands of satisfied travelers who have discovered the world with BuddyBagpackers
+            Join thousands of satisfied travelers who have discovered the world with TripWithMe
           </p>
         </div>
 

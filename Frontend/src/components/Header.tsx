@@ -11,7 +11,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <MapPin className="h-8 w-8 text-blue-600 mr-2" />
-            <span className="text-2xl font-bold text-gray-900">BuddyBagpackers</span>
+            <span className="text-2xl font-bold text-gray-900">TripWithMe</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -24,7 +24,7 @@ const Header = () => {
           </nav>
 
           {/* Desktop CTA */}
-          <div className="hidden md:flex items-center space-x-4">
+          {/* <div className="hidden md:flex items-center space-x-4">
             <button className="flex items-center text-gray-700 hover:text-blue-600 transition-colors">
               <User className="h-5 w-5 mr-1" />
               Login
@@ -33,7 +33,7 @@ const Header = () => {
               <ShoppingBag className="h-4 w-4 mr-2" />
               Book Now
             </button>
-          </div>
+          </div> */}
 
           {/* Mobile menu button */}
           <button
